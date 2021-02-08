@@ -1,0 +1,30 @@
+720c720
+< [31] 00000060
+---
+> [31] 00000000
+758c758
+< [31] 00000060
+---
+> [31] 00000000
+796c796
+< [31] 00000060
+---
+> [31] 00000000
+987c987
+< Memory I/O: R 2 0104 CDEF
+---
+> Memory I/O: R 2 0104 FFFFCDEF
+1025c1025
+< Memory I/O: W 2 0100 CDEF
+---
+> Memory I/O: W 2 0100 FFFFCDEF
+1747c1747
+< Memory I/O: R 2 0108 C2D3
+---
+> Memory I/O: R 2 0108 FFFFC2D3
+1785c1785
+< Memory I/O: W 2 0104 C2D3
+---
+> Memory I/O: W 2 0104 FFFFC2D3
+37999a38000
+> 

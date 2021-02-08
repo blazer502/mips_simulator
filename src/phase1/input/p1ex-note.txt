@@ -1,0 +1,87 @@
+1. logical example, no branch, no memory I/O
+f(a,b,c) = ~(a&b)|~(b|c)&20
+
+and $t0, $a0, $a1
+nor $t0, $t0, $t0
+nor $t1, $a1, $a2
+or $t2, $t0, $t1
+andi $t2, $t2, 20
+
+
+2. loop example, no memory I/O
+sumFromTo(a,b) = a+(a+1)+(a+2)+...+(b-1)+b
+if a>=b, then return a
+
+addi $v0, $a0, 0
+slt $s0, $a1, $a0
+beq $s0, $zero, L1
+j L2
+L1:
+addi $a0, $a0, 1
+add $v0, $v0, $a0
+bne $a0, $a1, L1
+L2:
+
+
+3. swap example
+Mainly from ppt, but with minor changes (lw->lh, sw->sh)
+
+j main
+swap: sll $t1, $a1, 2   # $t1 = k * 4
+      add $t1, $a0, $t1 # $t1 = v+(k*4)
+                        #   (address of v[k])
+      lw $t0, 0($t1)    # $t0 (temp) = v[k]
+      lh $t2, 4($t1)    # $t2 = v[k+1]
+      sh $t2, 0($t1)    # v[k] = $t2 (v[k+1])
+      sw $t0, 4($t1)    # v[k+1] = $t0 (temp)
+      jr $ra            # return to calling routine
+main:
+jal swap
+addi $a1, $a1, 1
+slt $s0, $a1, $a2
+beq $s0, $zero, main
+
+
+4. Fibonacci example using memory
+F(0)=0, F(1)=1
+F(n)=F(n-1)+F(n-2)
+
+input $a0: v[], $a1: k_start, $a2: k_end
+write F(k) in v[k], k_start <= k < k_end
+assuming k>2 & v[k] are already written for k<k_start
+
+
+loop:
+jal fib
+addi $a1, $a1, 1
+bne $a1, $a2, loop
+j end
+
+fib:
+addi $sp, $sp, -4
+sw $ra, 0($sp)
+addi $a1, $a1, -1
+jal read            #read F(n-1)
+addi $s1, $s0, 0
+addi $a1, $a1, -1
+jal read			#read F(n-2)
+add $s1, $s1, $s0
+addi $a1, $a1, 2
+jal write			#write F(n)
+lw $ra, 0($sp)
+addi $sp, $sp, 4
+jr $ra
+
+read:
+sll $t0, $a1, 2
+add $t1, $a0, $t0  #address v[k]
+lw $s0, 0($t1)     #$s0 = v[k]
+jr $ra
+
+write:
+sll $t0, $a1, 2
+add $t1, $a0, $t0  #address v[k]
+sw $s1, 0($t1)     #v[k] = $s1
+jr $ra
+
+end:

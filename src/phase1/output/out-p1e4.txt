@@ -1,0 +1,279 @@
+Cycle 1
+PC: 0000
+Instruction: 0c000004
+
+Cycle 2
+PC: 0010
+Instruction: 23bdfffc
+
+Cycle 3
+PC: 0014
+Instruction: afbf0000
+
+Cycle 4
+PC: 0018
+Instruction: 20a5ffff
+
+Cycle 5
+PC: 001C
+Instruction: 0c000011
+
+Cycle 6
+PC: 0044
+Instruction: 00054080
+
+Cycle 7
+PC: 0048
+Instruction: 00884820
+
+Cycle 8
+PC: 004C
+Instruction: 8d300000
+
+Cycle 9
+PC: 0050
+Instruction: 03e00008
+
+Cycle 10
+PC: 0020
+Instruction: 22110000
+
+Cycle 11
+PC: 0024
+Instruction: 20a5ffff
+
+Cycle 12
+PC: 0028
+Instruction: 0c000011
+
+Cycle 13
+PC: 0044
+Instruction: 00054080
+
+Cycle 14
+PC: 0048
+Instruction: 00884820
+
+Cycle 15
+PC: 004C
+Instruction: 8d300000
+
+Cycle 16
+PC: 0050
+Instruction: 03e00008
+
+Cycle 17
+PC: 002C
+Instruction: 02308820
+
+Cycle 18
+PC: 0030
+Instruction: 20a50002
+
+Cycle 19
+PC: 0034
+Instruction: 0c000015
+
+Cycle 20
+PC: 0054
+Instruction: 00054080
+
+Cycle 21
+PC: 0058
+Instruction: 00884820
+
+Cycle 22
+PC: 005C
+Instruction: ad310000
+
+Cycle 23
+PC: 0060
+Instruction: 03e00008
+
+Cycle 24
+PC: 0038
+Instruction: 8fbf0000
+
+Cycle 25
+PC: 003C
+Instruction: 23bd0004
+
+Cycle 26
+PC: 0040
+Instruction: 03e00008
+
+Cycle 27
+PC: 0004
+Instruction: 20a50001
+
+Cycle 28
+PC: 0008
+Instruction: 14a6fffd
+
+Cycle 29
+PC: 0000
+Instruction: 0c000004
+
+Cycle 30
+PC: 0010
+Instruction: 23bdfffc
+
+Cycle 31
+PC: 0014
+Instruction: afbf0000
+
+Cycle 32
+PC: 0018
+Instruction: 20a5ffff
+
+Cycle 33
+PC: 001C
+Instruction: 0c000011
+
+Cycle 34
+PC: 0044
+Instruction: 00054080
+
+Cycle 35
+PC: 0048
+Instruction: 00884820
+
+Cycle 36
+PC: 004C
+Instruction: 8d300000
+
+Cycle 37
+PC: 0050
+Instruction: 03e00008
+
+Cycle 38
+PC: 0020
+Instruction: 22110000
+
+Cycle 39
+PC: 0024
+Instruction: 20a5ffff
+
+Cycle 40
+PC: 0028
+Instruction: 0c000011
+
+Cycle 41
+PC: 0044
+Instruction: 00054080
+
+Cycle 42
+PC: 0048
+Instruction: 00884820
+
+Cycle 43
+PC: 004C
+Instruction: 8d300000
+
+Cycle 44
+PC: 0050
+Instruction: 03e00008
+
+Cycle 45
+PC: 002C
+Instruction: 02308820
+
+Cycle 46
+PC: 0030
+Instruction: 20a50002
+
+Cycle 47
+PC: 0034
+Instruction: 0c000015
+
+Cycle 48
+PC: 0054
+Instruction: 00054080
+
+Cycle 49
+PC: 0058
+Instruction: 00884820
+
+Cycle 50
+PC: 005C
+Instruction: ad310000
+
+Cycle 51
+PC: 0060
+Instruction: 03e00008
+
+Cycle 52
+PC: 0038
+Instruction: 8fbf0000
+
+Cycle 53
+PC: 003C
+Instruction: 23bd0004
+
+Cycle 54
+PC: 0040
+Instruction: 03e00008
+
+Cycle 55
+PC: 0004
+Instruction: 20a50001
+
+Cycle 56
+PC: 0008
+Instruction: 14a6fffd
+
+Cycle 57
+PC: 0000
+Instruction: 0c000004
+
+Cycle 58
+PC: 0010
+Instruction: 23bdfffc
+
+Cycle 59
+PC: 0014
+Instruction: afbf0000
+
+Cycle 60
+PC: 0018
+Instruction: 20a5ffff
+
+Cycle 61
+PC: 001C
+Instruction: 0c000011
+
+Cycle 62
+PC: 0044
+Instruction: 00054080
+
+Cycle 63
+PC: 0048
+Instruction: 00884820
+
+Cycle 64
+PC: 004C
+Instruction: 8d300000
+
+Cycle 65
+PC: 0050
+Instruction: 03e00008
+
+Cycle 66
+PC: 0020
+Instruction: 22110000
+
+Cycle 67
+PC: 0024
+Instruction: 20a5ffff
+
+Cycle 68
+PC: 0028
+Instruction: 0c000011
+
+Cycle 69
+PC: 0044
+Instruction: 00054080
+
+Cycle 70
+PC: 0048
+Instruction: 00884820
