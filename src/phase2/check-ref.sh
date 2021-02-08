@@ -6,6 +6,7 @@ I="test/reference/ikjae/"
 make clean
 make test
 
+# You can compare outputs by ikjae and tayun
 cd output
 diff out-End.txt ${T}out-End.txt > ${T}out-End-diff.txt
 diff out-Fibonacci.txt ${T}out-Fibonacci.txt > ${T}out-Fibonacci-diff.txt
