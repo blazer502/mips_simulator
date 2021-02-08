@@ -5,7 +5,7 @@ by Chanyoung Park
 I followed a book, [Computer Organization Design MIPS Architecture](https://www.amazon.com/Computer-Organization-Design-MIPS-Architecture/dp/0124077269). It is fully implemented in C language.
 
 
-* If you want to see what instructions are implemented, Look at Instruction.c file. I give trouble that you manually register commands through this file. But, this way gives extensibility to add/remove commands through this file. 
+* If you want to see what instructions are implemented, Look at Instruction.c file. I give trouble that you manually register commands through this file. But, this way gives extensibility to add/remove commands. 
 
 * There is a huge difference between Phase 1 and Phase 2. Phase 2 is designed with pipelining.
 
